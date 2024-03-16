@@ -1,0 +1,121 @@
+<head>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<header>
+  <h1 class="text-6xl font-bold underline">
+    My Website
+  </h1>
+  <br>
+</header>
+
+<article class="ml-2">
+  <h2 class="text-2xl">
+    Languages rating
+  </h2>
+  <br>
+
+  <table class="table-auto text-teal-600">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Python</td>
+        <td>15.16</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>C</td>
+        <td>10.97</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>C++</td>
+        <td>10.53</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Java</td>
+        <td>8.88</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+  <h2 class="text-xl bg-pink-400">Winners</h2>
+
+  <ol class="text-sky-500 bg-orange-500 list-roman list-inside">
+    <li>Python</li>
+    <li>C</li>
+    <li>C++</li>
+  </ol>
+
+  <h2 class="text-violet-600 bg-sky-500">Green pepper</h2>
+  <img class="animate-spin shadow-2xl" src="../img/pepper.jpg" alt="Green pepper">
+  <br>
+  
+  <form>
+    <label>
+      Language:
+      <input class="shadow" name="language-name" autocomplete="name">
+    </label>
+    <br>
+    <label>
+      Tier:
+      <select name="language-tier">
+        <option value="s">S</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+        <option value="f">F</option>
+      </select>
+    </label>
+    <br>
+    <button class="animate-ping ml-4" type="button">Submit</button>
+  </form>
+</article>
+
+<details>
+  <summary>What makes a good programming language?</summary>
+  <p>
+    A good programming language offers clarity, simplicity, and flexibility,
+    supported by robust documentation and a thriving community.
+    It ensures performance and efficiency while evolving to stay relevant
+    in the ever-changing technological landscape, enabling developers
+    to write high-quality, maintainable code efficiently.
+  </p>
+</details>
+
+<label for="assignment completion">Assignment progress:</label>
+<progress max="100" value="90">90%</progress>
+
+<img src="../img/langs.png" alt="langs" usemap="#langs-rec">
+<map name="langs-rec">
+  <area
+    shape="rect"
+    coords="0,0,400,400"
+    alt="python"
+    href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+  <area
+    shape="rect"
+    coords="400,0,800,400"
+    alt="c"
+    href="https://en.wikipedia.org/wiki/C_(programming_language)">
+  <area
+    shape="rect"
+    coords="800,0,1200,400"
+    alt="cplusplus"
+    href="https://en.wikipedia.org/wiki/C++">
+</map>
+
+<footer>
+  RG 2024
+</footer>
